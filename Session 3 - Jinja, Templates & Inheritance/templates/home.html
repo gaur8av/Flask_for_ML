@@ -1,0 +1,17 @@
+
+<!-- this line is a jinja and means it inherties the "layout.html" code -->
+{% extends "layout.html" %}
+
+{% block content %}
+<h3>Contents:</h3>
+<ul>
+  <li>Home</li>
+  <li>Contact us</li>
+  <li><a href=" {{ url_for('about') }} " targrt="_blank" >About</a></li>
+  <li><a href=" {{url_for('employee')}} " target="_blank">Employees</a> </li>
+  <li>Careers</li>
+
+</ul>
+
+
+{% endblock content %}

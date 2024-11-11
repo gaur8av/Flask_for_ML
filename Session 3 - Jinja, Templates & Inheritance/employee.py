@@ -1,0 +1,22 @@
+employee_data = {
+    1:{
+        "Name":"A",
+        "Age":20,
+        "Position":"Manager"
+    },
+    2:{
+        "Name":"B",
+        "Age":21,
+        "Position":"Accounts"
+    },
+    3:{
+        "Name":"C",
+        "Age":23,
+        "Position":"Receptionist"
+    },
+    4:{
+        "Name":"D",
+        "Age":24,
+        "Position":"Product_Engineer"
+    }
+}
